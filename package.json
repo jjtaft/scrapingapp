@@ -1,13 +1,13 @@
 {
-  "name": "news_scraper",
+  "name": "The Onion Scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scrapes The Onion then saves in MongoDB",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Justin Taft",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
@@ -16,5 +16,6 @@
     "mongoose": "^4.4.6",
     "morgan": "^1.7.0",
     "request": "^2.69.0"
+    "express-handlebars": "^3.0.0",
   }
 }
